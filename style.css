@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  margin: 0;
+  padding: 30px;
+}
+
+.app {
+  max-width: 1100px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.top-section {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.form-card {
+  width: 30%;
+}
+
+.form-card input,
+.form-card textarea,
+.form-card select,
+.form-card button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.form-card button {
+  background: #4a6cf7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.events-card {
+  width: 70%;
+}
+
+.events-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.events-header button {
+  margin-left: 5px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  background: #4a6cf7;
+  color: white;
+  cursor: pointer;
+}
+
+.event {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.event span {
+  display: inline-block;
+  background: #4a6cf7;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.delete {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dom-card {
+  margin-top: 20px;
+}
